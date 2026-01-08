@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-BoldItalic.woff2') format('woff2'),
+        url('AlbertSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-ExtraLightItalic.woff2') format('woff2'),
+        url('AlbertSans-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Italic.woff2') format('woff2'),
+        url('AlbertSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('AlbertSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Bold.woff2') format('woff2'),
+        url('AlbertSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-ExtraLight.woff2') format('woff2'),
+        url('AlbertSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Black.woff2') format('woff2'),
+        url('AlbertSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-ExtraBold.woff2') format('woff2'),
+        url('AlbertSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-BlackItalic.woff2') format('woff2'),
+        url('AlbertSans-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-LightItalic.woff2') format('woff2'),
+        url('AlbertSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-MediumItalic.woff2') format('woff2'),
+        url('AlbertSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Thin.woff2') format('woff2'),
+        url('AlbertSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Light.woff2') format('woff2'),
+        url('AlbertSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-SemiBoldItalic.woff2') format('woff2'),
+        url('AlbertSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    src: url('BricolageGrotesque24ptCondensed-Bold.woff2') format('woff2'),
+        url('BricolageGrotesque24ptCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Medium.woff2') format('woff2'),
+        url('AlbertSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-Regular.woff2') format('woff2'),
+        url('AlbertSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-ThinItalic.woff2') format('woff2'),
+        url('AlbertSans-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('AlbertSans-SemiBold.woff2') format('woff2'),
+        url('AlbertSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    src: url('BricolageGrotesque24ptCondensed-ExtraBold.woff2') format('woff2'),
+        url('BricolageGrotesque24ptCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    src: url('BricolageGrotesque24ptCondensed-Medium.woff2') format('woff2'),
+        url('BricolageGrotesque24ptCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt SemiCondensed';
+    src: url('BricolageGrotesque24ptSemiCondensed-Bold.woff2') format('woff2'),
+        url('BricolageGrotesque24ptSemiCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    src: url('BricolageGrotesque24ptCondensed-ExtraLight.woff2') format('woff2'),
+        url('BricolageGrotesque24ptCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    src: url('BricolageGrotesque24ptCondensed-Light.woff2') format('woff2'),
+        url('BricolageGrotesque24ptCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    src: url('BricolageGrotesque24ptCondensed-SemiBold.woff2') format('woff2'),
+        url('BricolageGrotesque24ptCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    src: url('BricolageGrotesque24ptCondensed-Regular.woff2') format('woff2'),
+        url('BricolageGrotesque24ptCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt SemiCondensed';
+    src: url('BricolageGrotesque24ptSemiCondensed-ExtraLight.woff2') format('woff2'),
+        url('BricolageGrotesque24ptSemiCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt SemiCondensed';
+    src: url('BricolageGrotesque24ptSemiCondensed-Light.woff2') format('woff2'),
+        url('BricolageGrotesque24ptSemiCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt SemiCondensed';
+    src: url('BricolageGrotesque24ptSemiCondensed-Medium.woff2') format('woff2'),
+        url('BricolageGrotesque24ptSemiCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bricolage Grotesque 24pt SemiCondensed';
+    src: url('BricolageGrotesque24ptSemiCondensed-ExtraBold.woff2') format('woff2'),
+        url('BricolageGrotesque24ptSemiCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

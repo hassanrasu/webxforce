@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+      font-family: 'Albert Sans';
+    color: rgba(50, 70, 59, 0.55);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.main-wrapper {
+    position: relative;
+    overflow-x: hidden
+}
+
+
+
+a {
+    color: #32463B;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #32463B;
+}
+
+a:focus,
+input:focus,
+button:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    display: block
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #080d10;
+    margin-bottom: 12px;
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+}
+
+h1,
+.h1 {
+    font-size: 60px;
+    line-height: 115%;
+}
+
+h2,
+.h2 {
+    font-size: 50px;
+    line-height: 115%;
+}
+
+h3,
+.h3 {
+    font-size: 40px;
+    line-height: 115%;
+}
+
+h4,
+.h4 {
+    font-size: 30px;
+    line-height: 120%;
+}
+
+h5,
+.h5 {
+    font-size: 24px;
+    line-height: 115%;
+}
+
+h6,
+.h6 {
+    font-size: 20px;
+    line-height: 115%;
+}
+
+
+p {
+    margin-bottom: 20px;
+}
+
+
+p:last-child {
+    margin-bottom: 0 !important;
+}
+
+
+button {
+    border: none;
+    transition: all 0.4s ease 0s;
+    background: transparent
+}
+
+.section,
+section {
+    padding: 70px 0;
+}
+
+.container {
+    max-width: 1200px
+}
+
+.container.wide {
+    max-width: 1320px;
+}
+.container.ultra {
+    max-width: 1420px;
+}
+
+.container.smalls {
+    max-width: 1080px
+}
+ul, ol{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+.cta-btn {
+    display: inline-flex;
+    padding: 15px 40px;
+    background: #DD2A09;
+    color: #fff;
+    font-size: 16px
+}
+.cta-btn:hover{
+    color: #fff
+}
+.btn-border {
+    background: transparent;
+    border: 1px solid #DD2A09;
+    padding: 14px 39px;
+}
+
+.col_red{
+    color: #DD2A09
+}
+.bg_blk{
+      background: #080d10
+}
+
+
+.pt_100{
+    padding-top: 100px
+}
+.relative{
+    position: relative
+}
+.z-99{
+    z-index: 99;
+    position: relative
+}
+/*Write CSS From Here*/
+.header-area{
+    background: #080d10;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+}
+.header-inn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: 40px
+}
+.header-menu ul li:first-child{
+    margin-left: 0
+}
+.header-menu a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500
+}
+.header-logo .logo{
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff
+}
+.hero-area{
+    padding-bottom: 200px
+}
+.hero-action li{
+    display: inline-block
+}
+
+.hero-inner .h2{
+    font-size: 90px;
+    font-weight: 700;
+    color: #fff
+}
+.hero-inner .sub-text{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 20px
+}
+.icon-teaser.style1{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.icon-teaser.style1 .icon{
+    margin-right: 20px;
+    font-size: 24px;
+    color: #080d10
+}
+.icon-teaser.style1 .text{
+    color: #080d10;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+}
+.icon-teaser-box.style1{
+    background: #fff;
+    margin-top:-70px;
+    padding: 30px 0;
+    border-radius: 20px
+}
+.image-bg.style1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    left: 0;
+    top: 0
+}
+.text-box.style1{
+    padding: 30px;
+    background: #fff;
+    color: #080d10;
+    height: 100%;
+    
+}
+.text-box.style1 .number{
+    position: relative;
+    display: block;
+    font-size: 50px;
+    margin-bottom: 60px;
+    font-family: 'Bricolage Grotesque';
+    color: #DD2A09;
+    font-weight: 600
+}
+.text-box.style1 .number::before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: #DD2A09;
+    left: 0;
+    bottom: -30px;
+}
+.text-box.style1 .title{
+    font-size: 32px;
+    font-weight: 600
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*REsponsive*/
+@media(max-width:1400px) {}
+
+@media(max-width:991px) {}
+
+@media(max-width:767px) {}
+
+@media(max-width:575px) {}
