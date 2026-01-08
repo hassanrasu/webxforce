@@ -6,6 +6,7 @@ body {
     color: rgba(50, 70, 59, 0.55);
     font-weight: 400;
     line-height: 30px;
+    background: #F7F7F7
 }
 
 html,
@@ -163,7 +164,9 @@ ul, ol{
       background: #080d10
 }
 
-
+.mt_30{
+    margin-top: 30px
+}
 .pt_100{
     padding-top: 100px
 }
@@ -213,13 +216,14 @@ ul, ol{
 
 .hero-inner .h2{
     font-size: 90px;
-    font-weight: 700;
-    color: #fff
+    color: #fff;
+    text-transform: uppercase
 }
 .hero-inner .sub-text{
     color: #fff;
     margin-bottom: 50px;
-    font-size: 20px
+    font-size: 20px;
+    color: #fffaef
 }
 .icon-teaser.style1{
     display: flex;
@@ -237,20 +241,21 @@ ul, ol{
     font-weight: 500;
     font-family: 'Bricolage Grotesque 24pt Condensed';
 }
-.icon-teaser-box.style1{
-    background: #fff;
-    margin-top:-70px;
-    padding: 30px 0;
-    border-radius: 20px
+.icon-teaser-box.style1 {
+    background: #F7F7F7;
+    margin-top: -90px;
+    padding: 30px 0 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
-.image-bg.style1{
+.image-bg.style1 {
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     z-index: -1;
     left: 0;
-    top: 0
+    top: 0;
 }
 .text-box.style1{
     padding: 30px;
@@ -278,14 +283,37 @@ ul, ol{
     bottom: -30px;
 }
 .text-box.style1 .title{
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600
 }
+.text-box.style2{
+    padding: 30px;
+    background: #fff;
+    color: #080d10;
+    height: 100%;
+    margin-bottom: 30px
+}
+.text-box.style2 .author{
+    display: flex;
+    align-items: center;
+    margin-top: 30px
+}
+.text-box.style2 .author-img{
+    margin-right: 10px
+}
+.text-box.style2 .author-text .name{
+    display: block;;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    line-height: 100%
+}
 
-
-
-
-
+.text-box.style2 .author-text .info{
+    font-size: 16px;
+    font-weight: 500
+}
 
 
 
