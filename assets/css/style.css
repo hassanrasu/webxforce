@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-size: 18px;
       font-family: 'Albert Sans';
-    color: rgba(50, 70, 59, 0.55);
+    color: rgba(8, 13, 16, 0.8);
     font-weight: 400;
     line-height: 30px;
     background: #fffaef
@@ -241,7 +241,8 @@ section {
     font-family: 'La Belle Aurore';
     font-size: 50px; 
     color: #080d10;
-    display: block
+    display: inline-block;
+    border-bottom: 1px solid #080d10
 }
 
 /*Write CSS From Here*/
@@ -332,7 +333,6 @@ section {
     top: 0;
 }
 .text-box.style1 {
-    color: #080d10;
     text-align: center;
     padding: 0 50px;
     position: relative;
@@ -342,7 +342,7 @@ section {
     position: relative;
     display: inline-block;
     font-size: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     line-height: 100px;
     font-family: 'Bricolage Grotesque';
     color: #fffaef;
@@ -431,7 +431,7 @@ section {
 }
 .video-area-bg{
     position: relative;
-    background: #EBF0F3;
+    background: #FAF5E8;
 }
 .video-area-bg .container{
     background: #fffaef;
