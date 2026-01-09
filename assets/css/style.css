@@ -234,8 +234,16 @@ section {
 }
 .z-99{
     z-index: 99;
-    position: relative
+    position: relative;
+   
 }
+.f_belle{
+    font-family: 'La Belle Aurore';
+    font-size: 50px; 
+    color: #080d10;
+    display: block
+}
+
 /*Write CSS From Here*/
 .header-area{
     background: #080d10;
@@ -400,10 +408,12 @@ section {
 }
 
 .brand-logo-slider img{
-    max-width: 200px
+    max-width: 200px;
 }
 .video-box.style1{
-    position: relative
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .video-box.style1 .video-btn{
     position: absolute;
@@ -417,24 +427,20 @@ section {
     transform: translate(-50%,-50%);
     font-size: 28px;
     line-height: 80px;
-    border-radius: 5px
+    border-radius: 10px
 }
 .video-area-bg{
-    position: relative
-}
-.video-area-bg::before {
-    position: absolute;
-    z-index: -1;
-    content: "";
-    width: 45%;
-    height: 100%;
-    left: 0;
-    top: 0;
+    position: relative;
     background: #EBF0F3;
 }
+.video-area-bg .container{
+    background: #fffaef;
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1)
+}
 
-
-
+  
 
 
 
