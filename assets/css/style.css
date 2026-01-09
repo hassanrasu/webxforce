@@ -6,7 +6,7 @@ body {
     color: rgba(50, 70, 59, 0.55);
     font-weight: 400;
     line-height: 30px;
-    background: #F7F7F7
+    background: #fffaef
 }
 
 html,
@@ -136,29 +136,75 @@ section {
 .container.smalls {
     max-width: 1080px
 }
-ul, ol{
-    list-style: none;
-    margin: 0;
-    padding: 0
-}
 .cta-btn {
+    position: relative;
+    display: inline-flex
+}
+.cta-btn:after {
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    border: 1px solid #000;
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translate3d(6px,6px,0);
+    transition: transform .5s cubic-bezier(.19,1,.22,1);
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(255 255 255 / 40%);
+    border-radius: 999px;
+}
+.cta-btn .btn_content{
+    position: relative;
+    transition: transform .5s cubic-bezier(.19, 1, .22, 1);
+    z-index: 2;
     display: inline-flex;
-    padding: 15px 40px;
-    background: #DD2A09;
-    color: #fff;
-    font-size: 16px
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 70px;
+    text-transform: uppercase;
+    padding: 18px 35px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
 }
-.cta-btn:hover{
-    color: #fff
+@media (hover: hover) and (pointer: fine) {
+    .cta-btn:hover .btn_content {
+        transform: translate3d(6px, 6px, 0);
+    }
 }
-.btn-border {
-    background: transparent;
-    border: 1px solid #DD2A09;
-    padding: 14px 39px;
+
+.cta-btn em {
+    margin-left: 10px;
+    position: relative;
+    top: -2px;
+        transition: transform .75s cubic-bezier(.19, 1, .22, 1);
+}
+.cta-btn:hover em {
+    transform: translateX(6px);
+}
+.btn_default {
+    background-color: var(--black);
+    color: var(--white);
+        border-color: #625b5a;
+    border-width:0 0 5px
+}
+.btn_orange .btn_content{
+        background-color: #ff7a00;
+    color: #fffaef;
+}
+.btn_white .btn_content{
+        background-color: #fffaef;
+    color: #080d10;
 }
 
 .col_red{
-    color: #DD2A09
+    color: #ff7a00
 }
 .bg_blk{
       background: #080d10
@@ -180,13 +226,17 @@ ul, ol{
 /*Write CSS From Here*/
 .header-area{
     background: #080d10;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2)
 }
 .header-inn{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0
+    padding: 20px 0
+}
+.header-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none
 }
 .header-menu ul li{
     display: inline-block;
@@ -195,17 +245,20 @@ ul, ol{
 .header-menu ul li:first-child{
     margin-left: 0
 }
-.header-menu a{
-    color: #fff;
+.header-menu a {
+    color: #fffaef;
     text-transform: uppercase;
     font-size: 16px;
-    font-weight: 500
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: block
 }
 .header-logo .logo{
     font-family: 'Bricolage Grotesque 24pt Condensed';
     font-weight: 700;
-    font-size: 32px;
-    color: #fff
+    font-size: 38px;
+    color: #fff;
+    display: block
 }
 .hero-area{
     padding-bottom: 200px
@@ -216,14 +269,17 @@ ul, ol{
 
 .hero-inner .h2{
     font-size: 90px;
-    color: #fff;
-    text-transform: uppercase
+    color: #fffaef;
+    text-transform: capitalize
 }
-.hero-inner .sub-text{
-    color: #fff;
-    margin-bottom: 50px;
-    font-size: 20px;
-    color: #fffaef
+.hero-inner p {
+    margin-bottom: 40px;
+    font-size: 22px;
+    color: #9d9d9d;
+    font-weight: 600;
+}
+.hero-inner .group_btn .cta-btn{
+    margin: 0 10px
 }
 .icon-teaser.style1{
     display: flex;
@@ -233,20 +289,17 @@ ul, ol{
 .icon-teaser.style1 .icon{
     margin-right: 20px;
     font-size: 24px;
-    color: #080d10
+    color: #fffaef
 }
 .icon-teaser.style1 .text{
-    color: #080d10;
+    color: #a8a8a8;
     font-size: 24px;
     font-weight: 500;
     font-family: 'Bricolage Grotesque 24pt Condensed';
 }
 .icon-teaser-box.style1 {
-    background: #F7F7F7;
-    margin-top: -90px;
-    padding: 30px 0 30px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px
 }
 .image-bg.style1 {
     position: absolute;
@@ -270,7 +323,7 @@ ul, ol{
     font-size: 50px;
     margin-bottom: 60px;
     font-family: 'Bricolage Grotesque';
-    color: #DD2A09;
+    color: #ff7a00;
     font-weight: 600
 }
 .text-box.style1 .number::before{
@@ -278,7 +331,7 @@ ul, ol{
     content: "";
     width: 50%;
     height: 3px;
-    background: #DD2A09;
+    background: #ff7a00;
     left: 0;
     bottom: -30px;
 }
