@@ -2,11 +2,10 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-      font-family: 'Albert Sans';
-    color: rgba(8, 13, 16, 0.8);
+    font-family: 'Albert Sans';
+    color: rgb(0, 0, 0);
     font-weight: 400;
     line-height: 30px;
-    background: #fffaef
 }
 
 html,
@@ -72,7 +71,7 @@ h1,
 
 h2,
 .h2 {
-    font-size: 60px;
+    font-size: 65px;
     line-height: 115%;
 }
 
@@ -129,6 +128,7 @@ section {
 .container.wide {
     max-width: 1320px;
 }
+
 .container.ultra {
     max-width: 1420px;
 }
@@ -136,10 +136,15 @@ section {
 .container.smalls {
     max-width: 1080px
 }
+.container.fluid{
+    max-width: 100%;
+    padding: 0 100px
+}
 .cta-btn {
     position: relative;
     display: inline-flex
 }
+
 .cta-btn:after {
     background-image: url(../img/texture.png);
     background-size: cover;
@@ -150,14 +155,15 @@ section {
     left: 0;
     position: absolute;
     top: 0;
-    transform: translate3d(6px,6px,0);
-    transition: transform .5s cubic-bezier(.19,1,.22,1);
+    transform: translate3d(6px, 6px, 0);
+    transition: transform .5s cubic-bezier(.19, 1, .22, 1);
     width: 100%;
     z-index: 1;
     background-color: rgb(255 255 255 / 40%);
     border-radius: 999px;
 }
-.cta-btn .btn_content{
+
+.cta-btn .btn_content {
     position: relative;
     transition: transform .5s cubic-bezier(.19, 1, .22, 1);
     z-index: 2;
@@ -173,6 +179,7 @@ section {
     font-weight: 700;
     line-height: normal;
 }
+
 @media (hover: hover) and (pointer: fine) {
     .cta-btn:hover .btn_content {
         transform: translate3d(6px, 6px, 0);
@@ -183,146 +190,176 @@ section {
     margin-left: 10px;
     position: relative;
     top: -2px;
-        transition: transform .75s cubic-bezier(.19, 1, .22, 1);
+    transition: transform .75s cubic-bezier(.19, 1, .22, 1);
 }
+
 .cta-btn:hover em {
     transform: translateX(6px);
 }
+
 .btn_default {
     background-color: var(--black);
     color: var(--white);
-        border-color: #625b5a;
-    border-width:0 0 5px
+    border-color: #625b5a;
+    border-width: 0 0 5px
 }
-.btn_orange .btn_content{
-        background-color: #ff7a00;
-    color: #fffaef;
+
+.btn_orange .btn_content {
+    background-color: #f3d178;
+    color: #000;
 }
-.btn_white .btn_content{
-        background-color: #fffaef;
+
+.btn_white .btn_content {
+    background-color: #fff;
     color: #080d10;
 }
-.section-heading{
-    font-weight: 700
+
+.section-heading {
+    font-weight: 500
 }
-.section-sub-title{
+
+.section-sub-title {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 600;
-    color: #ff7a00
+    color: #080d1087;
 }
-.text_upper{
+
+.text_upper {
     text-transform: uppercase
 }
-.col_red{
-    color: #ff7a00
+
+.col_red {
+    color: #f3d178
 }
-.bg_blk{
-      background: #080d10
+
+.bg_blk {
+    background: #080d10
 }
-.mb_5{
+
+.mb_5 {
     margin-bottom: 50px
 }
-.mt_30{
+
+.mt_30 {
     margin-top: 30px
 }
-.pt_100{
+
+.pt_100 {
     padding-top: 100px
 }
-.relative{
+
+.relative {
     position: relative
 }
-.z-99{
+
+.z-99 {
     z-index: 99;
     position: relative;
-   
+
 }
-.f_belle{
+
+.f_belle {
     font-family: 'La Belle Aurore';
-    font-size: 50px; 
+    font-size: 50px;
     color: #080d10;
     display: inline-block;
     border-bottom: 1px solid #080d10
 }
 
 /*Write CSS From Here*/
-.header-area{
+.header-area {
     background: #080d10;
 }
-.header-inn{
+
+.header-inn {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0
 }
-.header-menu ul{
+
+.header-menu ul {
     margin: 0;
     padding: 0;
     list-style: none
 }
-.header-menu ul li{
+
+.header-menu ul li {
     display: inline-block;
     margin-left: 40px
 }
-.header-menu ul li:first-child{
+
+.header-menu ul li:first-child {
     margin-left: 0
 }
+
 .header-menu a {
-    color: #fffaef;
+    color: #fff;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
     display: block
 }
-.header-logo .logo{
+
+.header-logo .logo {
     font-family: 'Bricolage Grotesque 24pt Condensed';
     font-weight: 700;
     font-size: 38px;
-    color: #fffaef;
+    color: #fff;
     display: block
 }
-.hero-area{
-    padding-bottom: 200px
+
+.hero-area {
+    padding-bottom: 100px
 }
-.hero-action li{
+
+.hero-action li {
     display: inline-block
 }
 
-.hero-inner .h2{
-    font-size: 90px;
-    color: #fffaef;
+.hero-inner .h2 {
+    font-size: 110px;
+    color: #fff;
     text-transform: capitalize
 }
+
 .hero-inner p {
     margin-bottom: 40px;
     font-size: 22px;
     color: #9d9d9d;
     font-weight: 600;
 }
-.hero-inner .group_btn .cta-btn{
+
+.hero-inner .group_btn .cta-btn {
     margin: 0 10px
 }
-.icon-teaser.style1{
+
+.icon-teaser.style1 {
     display: flex;
     align-items: center;
     justify-content: center
 }
-.icon-teaser.style1 .icon{
+
+.icon-teaser.style1 .icon {
     margin-right: 20px;
     font-size: 24px;
-    color: #fffaef
+    color: #f3d178
 }
-.icon-teaser.style1 .text{
+
+.icon-teaser.style1 .text {
     color: #a8a8a8;
     font-size: 24px;
     font-weight: 500;
     font-family: 'Bricolage Grotesque 24pt Condensed';
 }
+
 .icon-teaser-box.style1 {
     margin-top: 40px;
     margin-bottom: 40px
 }
+
 .image-bg.style1 {
     position: absolute;
     width: 50%;
@@ -332,121 +369,528 @@ section {
     left: 0;
     top: 0;
 }
+
 .text-box.style1 {
     text-align: center;
     padding: 0 50px;
     position: relative;
     line-height: 150%
 }
-.text-box.style1 .number{
+
+.text-box.style1 .number {
     position: relative;
     display: inline-block;
     font-size: 50px;
     margin-bottom: 30px;
     line-height: 100px;
-    font-family: 'Bricolage Grotesque';
-    color: #fffaef;
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    color: #000;
     font-weight: 600;
-    background: #ff7a00;
+    background: #f3d178;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border-style: solid;
+    border-color: #a5a5a5d6;
+    border-width: 0 1px 4px;
+    transition: all 0.4s
 }
-.text-box.style1 .number::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: rgba(8, 13, 16, 0.15);
-    left: 0;
-    bottom: 5px;
-    border-radius: 50%;
-    z-index: -1;
+
+.text-box.style1:hover .number {
+    background-color: #080d10;
+    color: #fff;
 }
+
 .text-box.style1::after {
     position: absolute;
     content: "";
     width: 75%;
     height: 1px;
-    border-bottom: 4px dashed #ff7a00;
+    border-bottom: 4px dashed #080d1087;
     left: 65%;
     top: 48px;
     z-index: -1;
 }
-.text-box.style1.end-item{
+
+.text-box.style1.end-item {
     position: relative
 }
-.text-box.style1.end-item::after{
-    display: none!important
+
+.text-box.style1.end-item::after {
+    display: none !important
 }
-.text-box.style1 .title{
-    font-size: 24px;
+
+.text-box.style1 .title {
+    font-size: 28px;
     font-weight: 600
 }
-.text-box.style2 .author{
+
+.text-box.style2 .author {
     display: flex;
     align-items: center;
     margin-top: 30px
 }
-.text-box.style2 .author-img{
+
+.text-box.style2 .author-img {
     margin-right: 10px
 }
-.text-box.style2 .author-text .name{
-    display: block;;
+
+.text-box.style2 .author-text .name {
+    display: block;
+    ;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
     font-family: 'Bricolage Grotesque 24pt Condensed';
     line-height: 100%
 }
-.text-box.style2 .author-text .info{
+
+.text-box.style2 .author-text .info {
     font-size: 16px;
     font-weight: 500
 }
-.brand-logo-slider{
+
+.brand-logo-slider {
     padding: 20px 0
 }
 
-.brand-logo-slider img{
+.brand-logo-slider img {
     max-width: 200px;
 }
-.video-box.style1{
+
+.video-box.style1 {
     position: relative;
     border-radius: 15px;
     overflow: hidden;
 }
-.video-box.style1 .video-btn{
+.video-box.style1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.video-box.style1 .video-btn {
     position: absolute;
     width: 80px;
     height: 80px;
     text-align: center;
-    background: #ff7a00;
-    color: #fffaef;
+    background: #fff;
+    color: #f3d178;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 28px;
     line-height: 80px;
-    border-radius: 10px
+    border-radius: 50%
 }
-.video-area-bg{
+
+.video-area-bg {
     position: relative;
-    background: #FAF5E8;
+    background: rgba(245, 245, 245, 0.32);
 }
-.video-area-bg .container{
-    background: #fffaef;
+
+.video-area-bg .video-review-box {
+    background: #fff;
     padding: 70px;
-    border-radius: 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.1)
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 3%);
 }
 
-  
+.video-area-bg .content-text {
+    font-size: 26px;
+    line-height: 34px
+}
 
 
+.video-area-bg .f_belle {
+    display: inline-block;
+    position: relative;
 
+    background: linear-gradient(
+        90deg,
+        #000 50%,
+        transparent 50%
+    );
+    background-size: 200% 100%;
+    background-position: 100% 0;
 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 
+    line-height: 120%;
+    margin-top: 20px !important;
+}
 
+/* animation class */
+.video-area-bg .f_belle.animate {
+    animation: signatureWrite 3s ease forwards;
+}
+
+@keyframes signatureWrite {
+    to {
+        background-position: 0 0;
+    }
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6.25rem;
+    height: 5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    z-index: 1
+}
+
+.play-button > .circle {
+    position: relative;
+    width: 2.125em;
+    height: 2.125em;
+    margin: auto;
+}
+
+.play-button > .circle > .icon {
+    position: absolute;
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.75em;
+    height: 0.875em;
+    margin-top: -0.4375em;
+    margin-left: -0.375em;
+    display: none;
+    margin-left: -0.29em;
+}
+
+.play-button > .circle > .black {
+    z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 62px;
+    height: 62px;
+    margin-top: -31px;
+    margin-left: -31px;
+    opacity: 0.9;
+}
+
+.play-button > .circle > .yellow {
+    position: absolute;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: -24px;
+    margin-left: -24px;
+}
+
+.play-button > .circle > .border {
+    position: absolute;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 72px;
+    height: 72px;
+    margin-top: -36px;
+    margin-left: -36px;
+    border-color: transparent !important
+}
+
+.play-button > .circle > .white {
+    position: absolute;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-left: -60px;
+    opacity: 0.1;
+}
+
+.play-button > .circle > .lines {
+    position: absolute;
+    display: none;
+}
+
+.play-button > .text {
+    position: relative;
+    margin-top: 2.375em;
+    font-size: 0.75em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.video-box.style1::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+}
+.text_white, .text_white > *{
+    color: #fff
+}
+.text-box.style9 {
+    background: #080d10;
+    padding: 50px;
+    color: rgba(255,254,253,.6);
+    border-radius: 16px
+}
+.text-box.style9 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.text-box.style9 ul li{
+    font-size: 18px
+}
+.text-box.style9 .title {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+.list_cross li {
+    position: relative;
+    padding-left: 35px;
+    margin-top: 10px;
+}
+.list_cross li::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 23px;
+    height: 23px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><g id="Group_21639" data-name="Group 21639" transform="translate(-316 -5414)"><g id="Ellipse_126" data-name="Ellipse 126" transform="translate(316 5414)" fill="none" stroke="%23707070" stroke-width="1"><circle cx="14" cy="14" r="14" stroke="none"/><circle cx="14" cy="14" r="13.5" fill="none"/></g><g id="Group_21633" data-name="Group 21633" transform="translate(-0.069 -0.518)"><path id="Path_24669" data-name="Path 24669" d="M6903.257-16350.294l7.624,7.624" transform="translate(-6577 21775)" fill="none" stroke="%23707070" stroke-width="1"/><path id="Path_24670" data-name="Path 24670" d="M6903.257-16350.294l7.624,7.624" transform="translate(-16016.413 -1478.551) rotate(90)" fill="none" stroke="%23707070" stroke-width="1"/></g></g></svg>') no-repeat scroll center/cover;
+}
+.list_check li {
+    position: relative;
+    padding-left: 35px;
+    margin-top: 10px;
+}
+.list_check li::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 26px;
+    background: url('data:image/svg+xml,<svg id="Group_21631" data-name="Group 21631" xmlns="http://www.w3.org/2000/svg" width="33.026" height="33.026" viewBox="0 0 33.026 33.026"><ellipse id="Ellipse_5" data-name="Ellipse 5" cx="16.513" cy="16.513" rx="16.513" ry="16.513" transform="translate(0 0)" fill="%23f3d178" opacity="0.177"/><path id="Path_16540" data-name="Path 16540" d="M12.581,0A12.581,12.581,0,1,1,0,12.581,12.581,12.581,0,0,1,12.581,0Z" transform="translate(3.932 3.932)" fill="%23f3d178"/><g id="Group_21247" data-name="Group 21247" transform="translate(11.939 3.931)"><rect id="Rectangle_11706" data-name="Rectangle 11706" width="3.355" height="10.623" transform="translate(0 6.07)" fill="%23111"/><rect id="Rectangle_11707" data-name="Rectangle 11707" width="3.367" height="22.275" transform="translate(14.614) rotate(41)" fill="%23111"/></g></svg>') no-repeat scroll center/cover;
+}
+.inner-compare {
+    position: relative;
+}
+.vs-compare {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f3d178;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px;
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    color: #000;
+    font-weight: 700;
+}
+.vs-compare::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 106px;
+    height: 106px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #f3d178;
+    border-radius: 50%;
+}
+.section-notes{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #080d1087;
+    margin-top: 40px
+}
+
+.list-section {
+    padding-bottom: 80px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.list-section:last-child {
+    padding-bottom: 0
+}
+
+.list-section .content-text {
+    color: rgba(255, 255, 255, 0.64);
+    opacity: 0.2;
+    transition: all 0.4s;
+    padding-left: 40px;
+    position: relative
+}
+
+.list-section::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: #fff;
+    opacity: 0.2
+}
+
+.list-section::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 0;
+    background: #fff;
+    transition: all 0.6s
+}
+
+.list-section.active::before {
+    height: 100px
+}
+
+.list-section.active .content-text {
+    opacity: 1
+}
+
+.list-section .num {
+    font-family: 'Roc Grotesk';
+    font-size: 20px;
+    position: absolute;
+    left: -60px;
+    font-weight: 700;
+    top: 15px;
+    transition: all 0.4s;
+}
+
+.list-section .title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.list-section .inner {
+    background: rgba(255,255,255,.0784313725);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+}
+
+.list-section.active .inner {
+    opacity: 1;
+    visibility: visible
+}
+
+.list-section .inner a {
+    flex: 0 0 50%;
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 0;
+    position: relative;
+    padding-left: 20px
+}
+
+.list-section .inner a:nth-last-child(-n+2) {
+    border: none
+}
+
+.list-section .inner a::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="9.062" height="8.696" viewBox="0 0 9.062 8.696"><path id="Polygon_2" data-name="Polygon 2" d="M3.5,0,7,6H0Z" transform="translate(0 3.5) rotate(-30)" fill="%23c89e61"/></svg>') no-repeat scroll 0 0/cover;
+}
+.mb_head {
+    margin-bottom: 120px;
+    color: rgba(255,254,253,.6);
+    font-size: 22px
+}
+
+.content-video video{
+        clip-path: inset(50% round 12px);
+    transform: rotate(-15deg);
+    transition: clip-path .8s ease, transform .8s ease;
+    will-change: clip-path, transform;
+    width: 100%;
+    aspect-ratio: 1.333 !important;
+    object-fit: cover;
+    vertical-align: middle;
+        clip-path: inset(0 round 12px);
+    transform: rotate(0);
+        border-radius: calc(12 / 1440 * 100vw);
+}
+.box.style3 h3.title {
+    font-size: 28px;
+}
+.box.style3 {
+    line-height: 28px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    height:100%;
+}
+.brand-carousel-box {
+    margin: 0 10px
+}
+
+.brand-carousel-box {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.brand-carousel-box img {
+    width: 85px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: all 0.4s;
+}
+.brand-carousel-bottom {
+    margin-top: 20px;
+}
 
 
 

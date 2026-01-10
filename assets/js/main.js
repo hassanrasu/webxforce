@@ -58,7 +58,34 @@
         });
         
         
-        
+          $('.brand-carousel-top').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            speed: 5000,
+            autoplay: true,
+            autoplaySpeed: 0,
+            cssEase: 'linear',
+            infinite: true,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            variableWidth: true,
+            rtl: true,
+        });
+        $('.brand-carousel-bottom').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            speed: 5000,
+            autoplay: true,
+            autoplaySpeed: 0,
+            cssEase: 'linear',
+            infinite: true,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            variableWidth: true,
+        });
+
         
         
         
