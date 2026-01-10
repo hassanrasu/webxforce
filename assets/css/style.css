@@ -891,6 +891,91 @@ section {
 .brand-carousel-bottom {
     margin-top: 20px;
 }
+.text_20{
+    font-size: 20px
+}
+.price-title, .pricing-notes{
+    display: block
+}
+.pricing_row{
+    margin-top: 50px
+}
+.pricing_row .col-md-4{
+    padding: 0
+}
+.pricing-box .top .title{
+    margin-bottom: 0
+}
+.pricing-box{
+    padding: 30px;
+    background: rgba(245, 245, 245, 0.32);
+    height: 100%
+}
+.pricing-box .cta-btn {
+    display: flex;
+    margin: 30px 0;
+}
+.pricing-box .cta-btn .btn_content{
+    width: 100%
+}
+.price-title {
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Bricolage Grotesque 24pt Condensed';
+    color: #080d10;
+}
+.price-title em{
+        font-size: 28px;
+    opacity: 0.6;
+}
+.pricing_sep {
+    height: 5px;
+    border-radius: 100px;
+    width: 100%;
+    background: #000;
+    display: block;
+    margin: 25px 0;
+}
+.pricing-box.active{
+    background: #f3d178;
+transform: scale(1.05)
+}
+.pricing-box .bottom .title{
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: block
+}
+.pricing-box ul{
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+.pricing-box li{
+    font-size: 17px
+}
+.pricing-box.active .list_check li::before {
+    background: url('data:image/svg+xml,<svg id="Group_21631" data-name="Group 21631" xmlns="http://www.w3.org/2000/svg" width="33.026" height="33.026" viewBox="0 0 33.026 33.026"><ellipse id="Ellipse_5" data-name="Ellipse 5" cx="16.513" cy="16.513" rx="16.513" ry="16.513" transform="translate(0 0)" fill="%23fff" opacity="0.8"/><path id="Path_16540" data-name="Path 16540" d="M12.581,0A12.581,12.581,0,1,1,0,12.581,12.581,12.581,0,0,1,12.581,0Z" transform="translate(3.932 3.932)" fill="%23fff"/><g id="Group_21247" data-name="Group 21247" transform="translate(11.939 3.931)"><rect id="Rectangle_11706" data-name="Rectangle 11706" width="3.355" height="10.623" transform="translate(0 6.07)" fill="%23111"/><rect id="Rectangle_11707" data-name="Rectangle 11707" width="3.367" height="22.275" transform="translate(14.614) rotate(41)" fill="%23111"/></g></svg>') no-repeat scroll center/cover;
+}
+.pricing-box .bottom.alt .title{
+    margin-bottom: 2px
+}
+.pricing-box .bottom.alt .link_text{
+    font-weight: 500;
+    text-decoration: underline
+}
+.pricing-box .bottom.alt .inner-link{
+    margin-bottom:25px
+}
+.pricing-box .top{
+ position: relative
+}
+.pricing-box .top .popular-badge{
+    position: absolute;
+    top: 0;
+    width: 130px;
+    right: 37px;
+}
+
 
 
 
