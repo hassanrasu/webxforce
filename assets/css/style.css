@@ -425,31 +425,6 @@ section {
     font-weight: 600
 }
 
-.text-box.style2 .author {
-    display: flex;
-    align-items: center;
-    margin-top: 30px
-}
-
-.text-box.style2 .author-img {
-    margin-right: 10px
-}
-
-.text-box.style2 .author-text .name {
-    display: block;
-    ;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-family: 'Bricolage Grotesque 24pt Condensed';
-    line-height: 100%
-}
-
-.text-box.style2 .author-text .info {
-    font-size: 16px;
-    font-weight: 500
-}
-
 .brand-logo-slider {
     padding: 20px 0
 }
@@ -520,6 +495,100 @@ section {
     line-height: 120%;
     margin-top: 20px !important;
 }
+
+.text-box.style2{
+    border:  1px solid #ddd;
+    padding: 50px;
+    margin: 0 15px;
+    border-radius: 20px
+}
+.text-box.style2 .text{
+    font-size: 24px
+}
+.text-box.style2 .top-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px
+}
+.text-box.style2 .top-icon ul{
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+.text-box.style2 .top-icon ul li{
+    display: inline-block;
+    
+}
+.text-box.style2 .top-icon .icon{
+   font-family: 'Bricolage Grotesque 24pt Condensed';
+    font-size: 50px
+}
+
+.testimonial-slider{
+    position: relative
+}
+.testimonial-slider::before{
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 1
+}
+.testimonial-slider::after{
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: #fff;
+    z-index: 1
+}
+.testimoneal-left-shape{
+    position: absolute;
+    left: 15%;
+    top: 0;;
+    z-index: 9;
+    width: 20px;
+    height: 100%
+}
+
+.testimoneal-right-shape {
+    position: absolute;
+    right: 15%;
+    top: 0;
+    z-index: 9;
+    width: 20px;
+    height: 100%;
+    transform: rotate(180deg)
+}
+.text-box.style2 .f_belle {
+    font-size:32px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* animation class */
 .video-area-bg .f_belle.animate {
