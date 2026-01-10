@@ -518,11 +518,11 @@ section {
 }
 .text-box.style2 .top-icon ul li{
     display: inline-block;
-    
+    color: #f3d178
 }
 .text-box.style2 .top-icon .icon{
-   font-family: 'Bricolage Grotesque 24pt Condensed';
-    font-size: 50px
+    font-size: 50px;
+    font-family: 'La Belle Aurore'
 }
 
 .testimonial-slider{
