@@ -90,16 +90,15 @@
          	$('.testimonial-slider').slick({
             dots: false,
             arrows: true,
-            speed: 300,
+            speed: 600,
             slidesToShow: 3,
             slidesToScroll: 1,
             centerMode: true,
             autoplay: true,
-                cssEase: 'linear',
             infinite: true,
-            autoplaySpeed: 5000,
-            prevArrow: false,
-            nextArrow: false,
+            autoplaySpeed:4000,
+           prevArrow: $('.testimonial_prev'),
+            nextArrow: $('.testimonial_next'),
             responsive: [
                 {
                     breakpoint: 1200,

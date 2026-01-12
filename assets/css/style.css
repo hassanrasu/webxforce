@@ -495,21 +495,27 @@ section {
     line-height: 120%;
     margin-top: 20px !important;
 }
-
-.text-box.style2{
-    border:  1px solid #ddd;
+.testimonial-slider .slide{
+    padding: 0 20px
+}
+.testimonial-slider .slick-list{
+    margin-left: -300px;
+    margin-right: -300px
+}
+.text-box.style2 {
+    border: 1px solid #222;
     padding: 50px;
-    margin: 0 15px;
-    border-radius: 20px
+    border-radius: 16px;
 }
 .text-box.style2 .text{
-    font-size: 24px
+    font-size: 20px
 }
-.text-box.style2 .top-icon{
+.text-box.style2 .top-icon {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 50px
+    justify-content: flex-end;
+    margin-bottom: 35px;
+    position: relative;
 }
 .text-box.style2 .top-icon ul{
     list-style: none;
@@ -520,38 +526,24 @@ section {
     display: inline-block;
     color: #f3d178
 }
-.text-box.style2 .top-icon .icon{
-    font-size: 50px;
-    font-family: 'La Belle Aurore'
+.text-box.style2 .top-icon .icon {
+    font-size: 130px;
+    font-family: 'La Belle Aurore';
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 25px;
+    line-height: 130px;
 }
 
 .testimonial-slider{
     position: relative
 }
-.testimonial-slider::before{
-    position: absolute;
-    content: "";
-    width: 15%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: #fff;
-    z-index: 1
-}
-.testimonial-slider::after{
-    position: absolute;
-    content: "";
-    width: 15%;
-    height: 100%;
-    right: 0;
-    top: 0;
-    background: #fff;
-    z-index: 1
-}
+
 .testimoneal-left-shape{
     position: absolute;
-    left: 15%;
-    top: 0;;
+    left: 0;
+    top: 0;
     z-index: 9;
     width: 20px;
     height: 100%
@@ -559,7 +551,7 @@ section {
 
 .testimoneal-right-shape {
     position: absolute;
-    right: 15%;
+    right: 0;
     top: 0;
     z-index: 9;
     width: 20px;
@@ -567,26 +559,12 @@ section {
     transform: rotate(180deg)
 }
 .text-box.style2 .f_belle {
-    font-size:32px
+    font-size: 32px;
+    margin-top: 30px !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fix{
+    overflow: hidden
+}
 
 
 
@@ -1044,7 +1022,97 @@ transform: scale(1.05)
     width: 130px;
     right: 37px;
 }
+.testimonial_arrows > div {
+    cursor: pointer;
+    position: absolute;
+    top: 58%;
+    width: 60px;
+}
+.testimonial_arrows > div.testimonial_prev {
+    transform: rotate(180deg);
+    left: -80px;
+}
+.testimonial_arrows > div.testimonial_next {
+    right: -80px;
+}
+.testimonial-area .container{
+    position: relative
+}
+.testimonial-area{
+    background: rgba(245, 245, 245, 0.32)
+}
+.inner-board-content{
+    font-size: 20px;
+    color: #eaeaea;
+}
+.faq-accordion .accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0;
+    background: transparent;
+    border: none
+}
 
+.faq-accordion .accordion-item:last-child {
+    margin: 0
+}
+
+.faq-accordion .accordion-button {
+    border-radius: 10px !important;
+    border: none !important;
+    font-size: 26px;
+    padding: 24px 40px;
+    font-weight: 700;
+    background: rgba(245, 245, 245, 0.32);
+    color: #080d10;
+    font-weight: 400;
+    font-family: 'Bricolage Grotesque 24pt Condensed'
+}
+
+.faq-accordion .accordion-button:focus {
+    outline: none;
+    box-shadow: none
+}
+
+.faq-accordion .accordion-button:not(.collapsed) {
+    color: #fff;
+    background: #080d10;
+    box-shadow: none;
+}
+
+.faq-accordion .accordion-body {
+    background: rgba(245, 245, 245, 0.32);
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 40px;
+    margin-top: -10px;
+    color: #222222
+}
+
+.faq-accordion .accordion-button:not(.collapsed)::after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15.813" height="15.813" viewBox="0 0 19.813 11.321"><path id="Path_24727" data-name="Path 24727" d="M-10338.914-2250.24l9.2,9.2,9.2-9.2" transform="translate(10339.621 2250.947)" fill="none" stroke="%23707070" stroke-width="2"/></svg>')
+}
+
+.faq-accordion .accordion-button::after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15.813" height="15.813" viewBox="0 0 19.813 11.321"><path id="Path_24727" data-name="Path 24727" d="M-10338.914-2250.24l9.2,9.2,9.2-9.2" transform="translate(10339.621 2250.947)" fill="none" stroke="%23707070" stroke-width="2"/></svg>')
+}
+
+.faq-accordion {
+    margin-top: 30px;
+}
+
+.faq-accordion blockquote {
+    background: #222;
+    padding: 30px;
+    border-radius: 8px;
+    color: #B5B5B5
+}
+
+.faq-accordion blockquote strong {
+    color: #E67B00;
+}
+.section-action{
+    margin-top: 40px
+}
 
 
 
