@@ -1502,6 +1502,21 @@ transform: scale(1.05)
     z-index: 1;
     font-size: 22px
 }
+.box.style5 .image{
+    padding:10px;
+    border-radius: 15px;
+    border: 1px solid #080d10
+}
+.box.style5 .image img{
+    width: 100%;
+    border-radius: 12px
+}
+.box.style5 .title{
+    font-size: 32px
+}
+.box.style5 .text{
+    padding-top: 20px
+}
 
 /*REsponsive*/
 @media(max-width:1400px) {}
