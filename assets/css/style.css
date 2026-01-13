@@ -269,7 +269,11 @@ section {
 
 /*Write CSS From Here*/
 .header-area {
-    background: #080d10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9
 }
 
 .header-inn {
@@ -1429,8 +1433,75 @@ transform: scale(1.05)
 .box.style1.alt .title{
     font-size: 32px
 }
-
-
+.hero-area{
+    position: relative;
+    z-index: 1;
+    padding-top: 160px
+}
+.hero-area .bg_image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1
+}
+.hero-area::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: -webkit-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(7, 7, 7, 0.9) 26%, rgba(7, 7, 7, 0.8) 100%);
+    background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(7, 7, 7, 0.9) 26%, rgba(7, 7, 7, 0.8) 100%);
+}
+.hero-area .container{
+    position: relative;
+    z-index: 1
+}
+.box.style1 .icon img {
+    height: 65px;
+}
+.box.style1 .icon{
+    margin-bottom: 25px
+}
+.box.style1.centered{
+    text-align: center;
+    justify-content: flex-start
+}
+.box.style1.centered .icon{
+    margin: 0 auto 25px
+}
+.cta-area{
+    position: relative;
+    z-index: 1
+}
+.cta-area .bg_image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.cta-area::after{
+        content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: -webkit-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(7, 7, 7, 0.9) 26%, rgba(7, 7, 7, 0.8) 100%);
+    background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(7, 7, 7, 0.9) 26%, rgba(7, 7, 7, 0.8) 100%);
+}
+.cta-inner{
+    position: relative;
+    z-index: 1;
+    font-size: 22px
+}
 
 /*REsponsive*/
 @media(max-width:1400px) {}
