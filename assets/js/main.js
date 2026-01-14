@@ -142,7 +142,16 @@
         
         
         
-        
+         $('.tabs').on('click', function () {
+            var tab = $(this);
+
+            tab.addClass('is-active');
+
+            if (tab.siblings().hasClass('is-active')) {
+                tab.siblings().removeClass('is-active');
+            }
+        });
+
         
         
         
